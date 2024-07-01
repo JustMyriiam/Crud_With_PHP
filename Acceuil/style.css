@@ -1,0 +1,18 @@
+:root{
+    --blue: #005d99;
+}
+
+a{
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.list-group-item {
+    color: black;
+}
+
+.liste {
+    color: black;
+    padding: 2% 5%;
+    font-size: 1.5em;
+}

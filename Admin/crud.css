@@ -1,0 +1,57 @@
+:root{
+    --blue: #005d99;
+}
+
+.lien-btn{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: white;
+    background-color: var(--blue);
+    text-align: center;
+    height: max-content;
+    width: max-content;
+    padding: 5%;
+    border-radius: 5%/10%;
+}
+
+legend{
+    color: var(--blue);
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+body{
+    background-color: var(--grey);
+}
+
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+
+form{
+    width: 30vw;
+    height: max-content;
+    border-radius: 5%;
+    border: white;
+    border-width: 0.2em;
+    border-style: solid;
+    padding: 1em;
+}
+
+.table-container{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    width: 70vw;
+    height: max-content;
+    align-items: center;
+    text-align: center;
+}
